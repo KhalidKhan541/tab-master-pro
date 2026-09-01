@@ -1,0 +1,30 @@
+.app-main {
+  padding-bottom: 0;
+}
+
+.tab-item {
+  margin-bottom: 1px;
+}
+
+.tab-item:active {
+  transform: scale(0.99);
+}
+
+.domain-group + .domain-group {
+  border-top: 1px solid var(--border-light);
+  padding-top: 4px;
+}
+
+.tab-list {
+  scroll-behavior: smooth;
+}
+
+.tab-item.highlight {
+  background: var(--warning);
+  color: #000;
+}
+
+.tab-item.highlight .tab-title,
+.tab-item.highlight .tab-url {
+  color: #000;
+}
